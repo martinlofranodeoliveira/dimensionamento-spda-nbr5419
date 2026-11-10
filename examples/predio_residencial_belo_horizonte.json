@@ -1,0 +1,13 @@
+{
+  "nome": "Edifício Residencial Belo Horizonte",
+  "comprimento_m": "32",
+  "largura_m": "18",
+  "altura_m": "42",
+  "densidade_descargas_ng": "9",
+  "localizacao_ambiental": "isolada_plano",
+  "risco_incendio": "ordinario",
+  "combate_incendio": "manual",
+  "pessoas_em_risco": 80,
+  "horas_ocupacao_ano": 8760,
+  "tipo_material": "cobre"
+}

@@ -1,0 +1,13 @@
+{
+  "nome": "Hospital Regional São Lucas",
+  "comprimento_m": "60",
+  "largura_m": "30",
+  "altura_m": "24",
+  "densidade_descargas_ng": "10",
+  "localizacao_ambiental": "isolada_plano",
+  "risco_incendio": "ordinario",
+  "combate_incendio": "alarme_brigada",
+  "pessoas_em_risco": 250,
+  "horas_ocupacao_ano": 8760,
+  "tipo_material": "cobre"
+}

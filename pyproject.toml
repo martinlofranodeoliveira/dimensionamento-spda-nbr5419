@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-spda-nbr5419"
+version = "1.0.0"
+description = "Motor analítico e CLI para dimensionamento de SPDA e gerenciamento de risco conforme ABNT NBR 5419:2015 em Python puro com aritmética exata."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Lofrano Tecnologia", email = "contato@lofranotecnologia.com.br" }
+]
+keywords = [
+    "engenharia-eletrica",
+    "spda",
+    "nbr-5419",
+    "descargas-atmosfericas",
+    "para-raios",
+    "gerenciamento-risco",
+    "esfera-rolante",
+    "gaiola-faraday",
+    "aterramento",
+    "python-puro"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed"
+]
+dependencies = []
+
+[project.scripts]
+spda-nbr5419 = "spda_nbr5419.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spda_nbr5419 = ["py.typed"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"

@@ -1,0 +1,13 @@
+{
+  "nome": "Centro de Logística e Armazenagem",
+  "comprimento_m": "100",
+  "largura_m": "50",
+  "altura_m": "14",
+  "densidade_descargas_ng": "8",
+  "localizacao_ambiental": "cercada_mesma_altura",
+  "risco_incendio": "explosivo",
+  "combate_incendio": "sprinklers",
+  "pessoas_em_risco": 40,
+  "horas_ocupacao_ano": 4000,
+  "tipo_material": "aluminio"
+}
